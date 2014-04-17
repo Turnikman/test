@@ -1,0 +1,153 @@
+﻿/*Begin Style Table*/
+table {
+    width:30px;
+}
+#col1 {
+    width:20px;
+}
+#col2 {
+    width:20px;
+    text-align:right;
+}
+/*End Style Table*/
+
+/*Begin Style Button*/
+.button {
+	background-color:#6b6b6b;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+    height: 50px;
+    width: 70px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    font-size: 30px;
+    font-family:MagistralC;
+}
+.button:hover {
+	background-color:#424242;
+}
+.button:active {
+    background-color:#d9d9d9;
+	position:relative;
+	top:1px;
+}
+/*End Style Button*/
+
+/*Begin Style Button1*/
+.button1 {
+	background-color:#080808;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+    height: 50px;
+    width: 70px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    font-size: 30px;
+    font-family:MagistralC;
+}
+.button1:hover {
+	background-color:#424242;
+}
+.button1:active {
+    background-color:#d9d9d9;
+	position:relative;
+	top:1px;
+}
+/*End Style Button1*/
+
+/*Begin Style Button2*/
+.button2 {
+	background-color:#1d1d1d;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+    height: 50px;
+    width: 70px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    font-size: 30px;
+    font-family:MagistralC;
+}
+.button2:hover {
+	background-color:#424242;
+}
+.button2:active {
+    background-color:#d9d9d9;
+	position:relative;
+	top:1px;
+}
+/*End Style Button2*/
+
+/*Begin Style Button3*/
+.button3 {
+	background-color:#00b2f6;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+    height: 50px;
+    width: 70px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    font-size: 30px;
+    font-family:MagistralC;
+}
+.button3:hover {
+	background-color:#00ffe0;
+}
+.button3:active {
+    background-color:#a3fef3;
+	position:relative;
+	top:1px;
+}
+/*End Style Button3*/
+
+/*Begin Style TextBox*/
+.textBox {
+	background-color:#383838;
+	border:1px solid #383838;
+	height: 60px;
+	color:#ffffff;
+    height: 50px;
+    width: 437.5px;
+    text-align:right;
+	text-shadow:0px 1px 0px #2f6627;
+    font-size: 40px;
+    font-family:MagistralC;
+}
+/*End Style TextBox*/
+
+/*Begin Style TextBox1*/
+.textBox1 {
+	background-color:#383838;
+	border:1px solid #383838;
+	height: 60px;
+	color:#ffffff;
+    height: 30px;
+    width: 437.5px;
+    top:20px;
+    text-align:right;
+	text-shadow:0px 1px 0px #2f6627;
+    font-size: 15px;
+    font-family:MagistralC;
+}
+/*End Style TextBox1*/
+
+/*Begin Global Style*/
+.style {
+    background-color:#0a0a0a;
+}
+/*End Global Style*/
+
+/*Begin TextBox Style*/
+.textimg {
+    /*background: url(../img/TbStyle.jpg);*/
+    background-color:#383838;
+    width: 43px;
+}
+/*End TextBox Style*/

@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="css/Style.css" />
+    <script type="text/javascript" src="js/JavaScript.js"></script>
+</head>
+<body class="style">
+    <center>
+            <form name="calculator">
+                    <table class="textimg">
+                        <tr>
+                            <td><input name="textbox2" type="text" class="textBox1" onchange="CheckNum(this.value)" disabled></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="textBox" name="textbox" onchange="CheckNum(this.value)" disabled></td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td><input type="button" class="button" name="" value="C" onclick="Remove(); return false;"></td>
+                            <td><input type="button" class="button" name="" value="√" onclick="SQRT(); return false;"></td>
+                            <td><input type="button" class="button" name="" value="%" onclick="Persent(); return false;"></td>
+                            <td><input type="button" class="button" name="" value="/" onclick="Div(1); return false;"></td>
+                            <td><input type="button" class="button1" name="" value="Sin" onclick="Sin(); return false;"></td>
+                            <td><input type="button" class="button1" name="" value="Exp" onclick="Exp(); return false;"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" class="button2" name="" value="7" onclick="CheckNum('7'); return false;"></td>
+                            <td><input type="button" class="button2" name="" value="8" onclick="CheckNum('8'); return false;"></td>
+                            <td><input type="button" class="button2" name="" value="9" onclick="CheckNum('9'); return false;"></td>
+                            <td><input type="button" class="button" name="" value="*" onclick="Multiply(1); return false;"></td>
+                            <td><input type="button" class="button1" name="" value="Cos" onclick="Cos(); return false;"></td>
+                            <td><input type="button" class="button1" name="" value="Tan" onclick="Tan(); return false;"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" class="button2" name="" value="4" onclick="CheckNum('4'); return false;"></td>
+                            <td><input type="button" class="button2" name="" value="5" onclick="CheckNum('5'); return false;"></td>
+                            <td><input type="button" class="button2" name="" value="6" onclick="CheckNum('6'); return false;"></td>
+                            <td><input type="button" class="button" name="" value="-" onclick="Minus(1); return false;"></td>
+                            <td><input type="button" class="button1" name="" value="Log" onclick="Log(); return false;"></td>
+                            <td><input type="button" class="button1" name="" value="1/x" onclick="OneDivX(); return false;"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" class="button2" name="" value="1" onclick="CheckNum('1'); return false;"></td>
+                            <td><input type="button" class="button2" name="" value="2" onclick="CheckNum('2'); return false;"></td>
+                            <td><input type="button" class="button2" name="" value="3" onclick="CheckNum('3'); return false;"></td>
+                            <td><input type="button" class="button" name="" value="+" onclick="Plus(1); return false;"></td>
+                            <td><input type="button" class="button1" name="" value="x^2" onclick="SQR(1); return false;"></td>
+                            <td><input type="button" class="button1" name="" value="x^-1" onclick="XpowNeg(1); return false;"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" class="button2" name="" value="0" onclick="CheckNum('0'); return false;"></td>
+                            <td><input type="button" class="button" name="" value="." onclick="CheckNum('.'); return false;"></td>
+                            <td><input type="button" class="button" name="" value="+/-" onclick="PlusOrMinus(); return false;"></td>
+                            <td><input type="button" class="button3" name="" value="=" onclick="Equally(); return false;"></td>
+                            <td><input type="button" class="button1" name="" value="x^3" onclick="Cube(); return false;"></td>
+                            <td><input type="button" class="button1" name="" value="x^y" onclick="PowXY(1); return false;"></td>
+                        </tr>
+                    </table>
+</form>
+    </center>
+</body>
+</html>
